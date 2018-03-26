@@ -10,3 +10,5 @@ public interface Flyweight {
 
   void operation(Object extrinsicState);
 }
+
+//Emily Beaudoin was here
