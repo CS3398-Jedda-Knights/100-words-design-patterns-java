@@ -1,5 +1,7 @@
 package com.hundredwordsgof.flyweight;
-
+/**
+ Juan has edited this file and completed the Travis CI confirmation for the flyweight pattern.
+*/
 /**
  * 
  * ConcreteFlyweight,implements Flyweight, and add storage for intrisnic state.
