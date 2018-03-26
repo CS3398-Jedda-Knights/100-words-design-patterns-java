@@ -6,6 +6,7 @@ package com.hundredwordsgof.flyweight;
  * state.
  *
  */
+// This is an edit from Kentessa's branch
 public interface Flyweight {
 
   void operation(Object extrinsicState);
