@@ -8,6 +8,7 @@ branches:
   only:
     - master
     - development
+    - Mario
 
 after_success:
   - mvn clean test jacoco:report coveralls:report
