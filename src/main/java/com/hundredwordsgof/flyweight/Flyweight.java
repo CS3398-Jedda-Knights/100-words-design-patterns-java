@@ -10,3 +10,6 @@ public interface Flyweight {
 
   void operation(Object extrinsicState);
 }
+
+
+//Mario's Comment
