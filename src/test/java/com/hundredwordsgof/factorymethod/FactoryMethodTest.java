@@ -1,7 +1,7 @@
 package com.hundredwordsgof.factorymethod;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotEqual;
+import static org.junit.Assert.assertNotEquals;
 import org.junit.Test;
 
 /**
@@ -24,7 +24,7 @@ public class FactoryMethodTest {
         productB.getClass().getName());
     assertEquals("com.hundredwordsgof.factorymethod.ConcreteProductA",
         productC.getClass().getName());
-    assertNotEqual("com.hundredwordsgof.factorymethod.ConcreteProductA",
+    assertNotEquals("com.hundredwordsgof.factorymethod.ConcreteProductA",
         productC.getClass().getName());
     assertEquals(productA, productC); //WOnder if this compares objects
     
