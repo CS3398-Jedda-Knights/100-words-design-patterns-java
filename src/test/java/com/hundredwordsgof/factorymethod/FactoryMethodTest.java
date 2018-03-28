@@ -23,7 +23,7 @@ public class FactoryMethodTest {
         productB.getClass().getName());
     assertEquals("com.hundredwordsgof.factorymethod.ConcreteProductA",
         productC.getClass().getName());
-    assertNotEquals("com.hundredwordsgof.factorymethod.ConcreteProductA",
+    assertNotEqual("com.hundredwordsgof.factorymethod.ConcreteProductA",
         productC.getClass().getName());
     assertEquals(productA, productC); //WOnder if this compares objects
     
