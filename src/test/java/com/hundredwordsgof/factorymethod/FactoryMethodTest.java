@@ -15,12 +15,18 @@ public class FactoryMethodTest {
 
     Product productA = factory.factoryMethod("A");
     Product productB = factory.factoryMethod("B");
+    Product productC = factory.factoryMethod("A");
 
     assertEquals("com.hundredwordsgof.factorymethod.ConcreteProductA",
         productA.getClass().getName());
     assertEquals("com.hundredwordsgof.factorymethod.ConcreteProductB",
         productB.getClass().getName());
-
+    assertEquals("com.hundredwordsgof.factorymethod.ConcreteProductA",
+        productC.getClass().getName());
+    assertNotEquals("com.hundredwordsgof.factorymethod.ConcreteProductA",
+        productC.getClass().getName());
+    assertEquals(productA, productC); //WOnder if this compares objects
+    
     assertEquals(null, factory.factoryMethod(""));
   }
 }
